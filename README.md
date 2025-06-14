@@ -34,24 +34,6 @@
 | Vercel      | Deployment platform                     |
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/your-username/pawparazzi.git
-cd pawparazzi
-npm install
-# or
-yarn
-npm run dev
-# or
-yarn dev
-🔗 Open your browser at http://localhost:3000
-
----
-
 ## 🔐 Authentication with Clerk
 
 - 🔑 Google, GitHub, and Email logins supported  
@@ -71,5 +53,23 @@ yarn dev
 - 🔍 Supports custom queries and filters for interactive UI behavior
 
 ---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/pawparazzi.git
+cd pawparazzi
+npm install
+# or
+yarn
+npm run dev
+# or
+yarn dev
+🔗 Open your browser at http://localhost:3000
+
+---
+
 
 

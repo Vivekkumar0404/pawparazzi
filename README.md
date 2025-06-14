@@ -4,7 +4,6 @@
 [![Tailwind](https://img.shields.io/badge/Styled_with-TailwindCSS-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
 [![Clerk](https://img.shields.io/badge/Auth-Clerk-orange)](https://clerk.dev/)
 [![Convex](https://img.shields.io/badge/Database-Convex-5E3DF6)](https://convex.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > **PawParazzi** is a modern, AI-augmented social media and e-commerce platform for pet lovers. Share your pet’s best moments, connect with other pet parents, and discover nearby pet-friendly services—all in one place.
 
@@ -51,10 +50,26 @@ npm run dev
 yarn dev
 🔗 Open your browser at http://localhost:3000
 
-## *Authentication with Clerk*
-Google, GitHub, and Email logins supported
+---
 
-Role-based access (admin, regular user)
+## 🔐 Authentication with Clerk
 
-Secure, session-aware navigation
+- 🔑 Google, GitHub, and Email logins supported  
+- 👥 Role-based access (admin, regular user)  
+- 🔒 Secure, session-aware navigation using Clerk’s built-in auth tools  
+- 🚫 Route protection for authenticated users and role-specific features  
+- 🔁 Seamless session handling and auto-refresh
+
+---
+
+## 📦 Real-Time Backend with Convex
+
+- ⚡ Real-time updates for posts, comments, likes, and shop listings  
+- 🧠 Dynamic data handling for user profiles, media uploads, and product listings  
+- 🛠️ Built-in function-based data model for backend logic  
+- 🔄 Reactive front-end data sync using Convex client hooks  
+- 🔍 Supports custom queries and filters for interactive UI behavior
+
+---
+
 
